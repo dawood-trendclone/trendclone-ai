@@ -152,5 +152,5 @@ else:
                         c.execute("UPDATE complaints SET status='Done' WHERE id=?", (comp[0],)); conn.commit(); st.rerun()
 
         if st.button("Logout"):
-    st.session_state.clear()
-    st.rerun()
+    st.session_state.clear()    
+    st.rerun()    
