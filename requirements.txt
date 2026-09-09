@@ -1,0 +1,7 @@
+streamlit
+google-generativeai
+yt-dlp
+stripe
+pillow
+requests
+python-dotenv
