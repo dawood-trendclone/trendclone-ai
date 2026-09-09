@@ -151,4 +151,6 @@ else:
                     if st.button("Mark Done", key=comp[0]):
                         c.execute("UPDATE complaints SET status='Done' WHERE id=?", (comp[0],)); conn.commit(); st.rerun()
 
-        if st.button("Logout"): st.session_state.clear(); st.rerun()tf-8 -*-
+        if st.button("Logout"):
+    st.session_state.clear()
+    st.rerun()
