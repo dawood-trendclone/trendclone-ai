@@ -1,4 +1,4 @@
-# -*- coding: uimport streamlit as st
+# -*- coding: import streamlit as st
 import sqlite3
 import hashlib
 import secrets
