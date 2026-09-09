@@ -1,4 +1,5 @@
-# -*- coding: import streamlit as st
+# -*- coding: utf-8 -*-
+import streamlit as st
 import sqlite3
 import hashlib
 import secrets
